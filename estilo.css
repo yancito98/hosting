@@ -1,0 +1,267 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    background-color: #ece6e2;
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
+
+}
+
+
+
+/* Encabezado */
+header {
+    background-color: #f2ede7;
+    width: 100%;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 8px 8px -5px rgba(0,0,0,0.3);
+    /* box-shadow: desplazamiento-x desplazamiento-y radio-desenfoque dispersión color;*/
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #ff3636;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+/* Contenido principal */
+.contenido_principal {
+    padding: 20px;
+    border: 2px solid rgb(51, 255, 0);
+    width: 100%;
+    min-height: 500px;
+    flex-direction: column;
+    
+
+    
+}
+
+.flex-container {
+    background-color: beige;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(36, 5, 211);
+    align-content: center;
+    
+    
+}
+
+.caja {
+    padding: 10px;
+    padding-top: 60px;
+    border: 1px solid rosybrown;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 320px;
+    flex-direction: column;
+    width: 75vm;
+}
+
+section div p {
+    text-align: center;
+    padding: 10px;
+    color: aqua;
+    background-color: #ff3636;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    word-wrap: break-word;
+  
+    
+    
+    
+}
+
+
+/*Barra lateral*/
+
+.barrasflex {
+    border: 3px solid rgb(111, 77, 233);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.barra  {
+    border: 2px solid rgb(233, 0, 128);
+    width: 10%;
+}
+
+.cont {
+    border: 3px solid rgb(0, 217, 255);
+    width: 80%;
+    max-width: 1200px;
+    
+
+}
+
+
+/* imagenes responsive */
+
+div img {
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: -2px 8px 35px -5px rgba(0,0,0,0.3);
+}
+
+header img {
+    width: 20%;
+}
+
+/* TEXTO */
+.info {
+    margin-bottom: 30px;
+    padding-top: 50px;
+    width: 70%;
+    text-align: center; 
+  }
+
+  .allinfo {
+    min-height: 700px;
+    display: grid;
+    border: 2px solid rgb(0, 180, 224);
+    place-items: center
+    
+    
+  }
+
+  /* ANUNCIOS */
+
+  .anuncio1 {
+   width: 15%;
+   height: auto;
+   border: 1px solid black;
+   position: absolute;
+    top: 300px;
+    left: 0;
+  }
+
+  .anuncio2 {
+    width: 15%;
+    height: auto;
+    border: 1px solid black;
+    position: absolute;
+     top: 300px;
+     right: 0;
+   }
+
+
+  .currency-section {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    width: 45%;
+    text-align: center; 
+    background-color: #f2ede7;
+    box-shadow: -2px 8px 35px -5px rgba(0,0,0,0.3);
+    /*box-shadow: desplazamiento-x desplazamiento-y radio-desenfoque dispersión color;*/
+  }
+
+  .currency-section h2 {
+    color: green;
+  }
+
+  .allinfodolar {
+    padding-top: 50px;
+    min-height: 700px;
+    /*border: 2px solid greenyellow;*/
+    display: grid;
+    place-items: center
+    
+    
+  }
+
+
+/* Pie de página */
+footer {
+    background-color: #ece6e2;
+    color: #202020;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 0px -8px 8px -5px rgba(0,0,0,0.3);
+}
+
+/*Script*/
+
+.script-section {
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+
+}
+
+.script-container {
+    display: flex;
+    flex-direction: row;
+    animation: scrollScript 30s linear infinite;
+
+}
+
+.script-item {
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+@keyframes scrollScript {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.content {
+    padding: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
